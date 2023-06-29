@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h2{
+    text-align: center;
+    font-size: 40px;
+}
+.login-form {
+    background: #DCE9FE;
+    padding: 40px;
+    border-radius: 10px;
+}
+.login-form h2 {
+    margin-bottom: 15px;
+
+}
+.login-form #email-input {
+    width: 70%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 10px;
+}
+.login-form #password-input {
+    width: 70%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    padding: 7px 10px;
+    display: block;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: #424296f0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#dashboards{}
+#dashboards {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+#dashboards #dashboard1{}
+#dashboards #dashboard1 {
+    background: #4CDE82;
+    width: 30%;
+    padding: 30px;
+    border-radius: 5px;
+}
+#dashboards #dashboard2 {
+    width: 30%;
+    background: #EBB20A;
+    padding: 30px;
+    margin: 0 12px;
+    border-radius: 5px;
+}
+#dashboards #dashboard2{}
+#dashboards #dashboard3 {
+    width: 30%;
+    background: #A88AFB;
+    padding: 30px;
+    border-radius: 5px;
+}
+#dashboards #dashboard3{}
+
+
+.transection-section{
+    margin-top: 30px;
+}
+.transect-boards {
+    display: flex;
+    justify-content: space-between;
+}
+.transect-boards .board {
+    background: #E978FA;
+    padding: 50px 20px;
+    border-radius: 5px;
+    width: 44%;
+}
+.transect-boards .board h4{}
+.transect-boards .board input {
+    display: block;
+    width: 70%;
+    margin: 15px 0;
+    height: 23px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}

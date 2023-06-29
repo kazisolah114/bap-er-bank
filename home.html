@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h2>Welcome to your Baa-er-Bank</h2>
+        </div>
+    </header>
+    <main>
+        <section class="dashboard-section container">
+            <div id="dashboards">
+                <div id="dashboard1">
+                    <h4>Deposite</h4>
+                    <h2>$<span id="deposite-value">00</span></h2>
+                </div>
+                <div id="dashboard2">
+                    <h4>Withdraw</h4>
+                    <h2>$<span id="widthdraw-balance">00</span></h2>
+                </div>
+                <div id="dashboard3">
+                    <h4>Balence</h4>
+                    <h2>$<span id="main-balance">1240</span></h2>
+                </div>
+            </div>
+        </section>
+        <section class="transection-section container">
+            <div class="transect-boards">
+                <div class="board">
+                    <h4>Plase Deposite</h4>
+                    <input id="desposite-input" type="number" placeholder="$ Ammount you want to deposite">
+                    <button id="deposite-btn" class="button" type="button">Deposite</button>
+                </div>
+                <div class="board">
+                    <h4>Plase Withdraw</h4>
+                    <input id="widthdraw-input" type="number" placeholder="$ Ammount you want to withdraw">
+                    <button id="widthraw-btn" class="button" type="button">Withdraw</button>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./home.js"></script>
+    <script src="./widthraw.js"></script>
+</body>
+</html>
